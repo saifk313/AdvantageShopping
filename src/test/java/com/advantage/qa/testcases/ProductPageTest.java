@@ -96,5 +96,6 @@ public class ProductPageTest extends TestBase {
 		reportListener.endReport();
 		log.info("*************** Closing Browser ********************");
 		driver.quit();
+		log.info("############### End of Test ########################");
 	}
 }
