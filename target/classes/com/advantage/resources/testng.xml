@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Advantage Shopping">
+	<test name="Advantage Shopping Test Demo">
+		<classes>
+			<class name="com.advantage.qa.testcases.ProductPageTest" />
+		</classes>
+	</test>
+</suite>

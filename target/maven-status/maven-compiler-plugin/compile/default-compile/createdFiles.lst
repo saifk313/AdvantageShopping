@@ -1,0 +1,11 @@
+com\advantage\qa\pages\HomePage.class
+com\advantage\qa\util\WebEventListener.class
+com\advantage\qa\pages\OrderPaymentPage.class
+com\advantage\qa\util\TestUtil.class
+com\advantage\qa\pages\ConfirmationPage.class
+com\advantage\qa\pages\RegisterPage.class
+com\advantage\qa\pages\CategoryPage.class
+com\advantage\qa\base\TestBase.class
+com\advantage\qa\pages\LoginPage.class
+com\advantage\qa\ExtentReports\ExtentReportListener.class
+com\advantage\qa\pages\ProductPage.class

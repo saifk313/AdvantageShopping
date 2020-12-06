@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Advantage Shopping]">
+  <test thread-count="5" name="Advantage Shopping Test Demo(failed)">
+    <classes>
+      <class name="com.advantage.qa.testcases.ProductPageTest">
+        <methods>
+          <include name="checkPaymentButtonTest"/>
+          <include name="validatePaymentDetails"/>
+          <include name="verifyAddToCartTest"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="displayStatus"/>
+        </methods>
+      </class> <!-- com.advantage.qa.testcases.ProductPageTest -->
+    </classes>
+  </test> <!-- Advantage Shopping Test Demo(failed) -->
+</suite> <!-- Failed suite [Advantage Shopping] -->

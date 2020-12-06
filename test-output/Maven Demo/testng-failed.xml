@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Maven Demo]">
+  <listeners>
+    <listener class-name="com.advantage.qa.ExtentReportListener.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" name="Demo Test(failed)">
+    <classes>
+      <class name="com.advantage.qa.testcases.ProductPageTest">
+        <methods>
+          <include name="checkPaymentButtonTest"/>
+          <include name="validatePaymentDetails" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.advantage.qa.testcases.ProductPageTest -->
+    </classes>
+  </test> <!-- Demo Test(failed) -->
+</suite> <!-- Failed suite [Maven Demo] -->

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Advantage Shopping" duration-ms="34949" started-at="2020-12-06T05:33:20Z" finished-at="2020-12-06T05:33:55Z">
+    <groups>
+    </groups>
+    <test name="Advantage Shopping Test Demo" duration-ms="34949" started-at="2020-12-06T05:33:20Z" finished-at="2020-12-06T05:33:55Z">
+      <class name="com.advantage.qa.testcases.ProductPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.advantage.qa.testcases.ProductPageTest@2b552920]" name="setup" is-config="true" duration-ms="19451" started-at="2020-12-06T05:33:20Z" finished-at="2020-12-06T05:33:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyAddToCartTest(java.lang.String, java.lang.String)[pri:1, instance:com.advantage.qa.testcases.ProductPageTest@2b552920]" name="verifyAddToCartTest" duration-ms="13448" started-at="2020-12-06T05:33:40Z" data-provider="getLoginData" finished-at="2020-12-06T05:33:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ABC]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abc@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddToCartTest -->
+        <test-method status="PASS" signature="displayStatus(org.testng.ITestResult)[pri:0, instance:com.advantage.qa.testcases.ProductPageTest@2b552920]" name="displayStatus" is-config="true" duration-ms="10" started-at="2020-12-06T05:33:54Z" finished-at="2020-12-06T05:33:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAddToCartTest status=SUCCESS method=ProductPageTest.verifyAddToCartTest(java.lang.String, java.lang.String)[pri:1, instance:com.advantage.qa.testcases.ProductPageTest@2b552920] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayStatus -->
+        <test-method status="PASS" signature="validatePaymentDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.advantage.qa.testcases.ProductPageTest@2b552920]" name="validatePaymentDetails" duration-ms="519" started-at="2020-12-06T05:33:54Z" data-provider="getCardData" finished-at="2020-12-06T05:33:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.23456789012E11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2023.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ruwi Springs]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePaymentDetails -->
+        <test-method status="PASS" signature="displayStatus(org.testng.ITestResult)[pri:0, instance:com.advantage.qa.testcases.ProductPageTest@2b552920]" name="displayStatus" is-config="true" duration-ms="1" started-at="2020-12-06T05:33:54Z" finished-at="2020-12-06T05:33:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatePaymentDetails status=SUCCESS method=ProductPageTest.validatePaymentDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.advantage.qa.testcases.ProductPageTest@2b552920] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayStatus -->
+        <test-method status="PASS" signature="checkPaymentButtonTest()[pri:3, instance:com.advantage.qa.testcases.ProductPageTest@2b552920]" name="checkPaymentButtonTest" duration-ms="41" started-at="2020-12-06T05:33:54Z" finished-at="2020-12-06T05:33:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPaymentButtonTest -->
+        <test-method status="PASS" signature="displayStatus(org.testng.ITestResult)[pri:0, instance:com.advantage.qa.testcases.ProductPageTest@2b552920]" name="displayStatus" is-config="true" duration-ms="1" started-at="2020-12-06T05:33:54Z" finished-at="2020-12-06T05:33:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkPaymentButtonTest status=SUCCESS method=ProductPageTest.checkPaymentButtonTest()[pri:3, instance:com.advantage.qa.testcases.ProductPageTest@2b552920] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayStatus -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.advantage.qa.testcases.ProductPageTest@2b552920]" name="tearDown" is-config="true" duration-ms="982" started-at="2020-12-06T05:33:54Z" finished-at="2020-12-06T05:33:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.advantage.qa.testcases.ProductPageTest -->
+    </test> <!-- Advantage Shopping Test Demo -->
+  </suite> <!-- Advantage Shopping -->
+</testng-results>
